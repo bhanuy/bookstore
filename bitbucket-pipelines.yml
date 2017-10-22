@@ -1,0 +1,9 @@
+# This is a sample build configuration with a custom maximum time.
+# Only use spaces to indent your .yml configuration.
+# ---
+pipelines:
+  default:
+    - step:
+        script:
+          - npm install
+          - npm test
